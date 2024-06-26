@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+#headerSection{
+    height: 20%;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#headerNameCountainer{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#searchSection{
+    display: flex;
+    justify-content: center;
+}
+#searchBar{
+    margin-top: 0px;
+    width: 50%;
+}
+#mainWeatherInfo{
+    font-size: 50px;
+    font-weight: bold;
+}
+#currentWeatherName{
+    font-size: 65px;
+    font-weight: bold;
+}
+#weatherDescription{
+    font-size: 25px;
+    font-weight: bold;
+}
+#optionalWeatherInfoBlock{
+    position: absolute;
+    top: 350px;
+    right: 0px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    width: 20%;
+    height: 30%;
+    background-color: rgb(233, 233, 233);
+}
+#btnCloseCard{
+    font-size: 150%;
+}
+#cardHeaderSection{
+    background-color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+}
+#futureForecast{
+    opacity: 0;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    background-color: gray;
+}
+#cardMainSection{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.cards{
+    width: 25%;
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+    border-left: solid lightgray 2px;
+    border-right: solid lightgray 2px;
+}
+
+#optionalWeatherInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+#mainSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
